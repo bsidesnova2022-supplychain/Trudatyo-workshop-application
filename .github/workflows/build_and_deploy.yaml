@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      # Setup the build environment
+     # Setup the build environment
       - uses: actions/checkout@v2
 
       - uses: actions/setup-go@v2
